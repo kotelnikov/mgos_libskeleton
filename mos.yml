@@ -1,0 +1,25 @@
+author: Author Name <your@email.here>
+type: lib
+description: Write your description 
+version: 0.1
+
+includes:
+  - include
+
+sources:
+  - src
+
+filesystem:
+  - fs
+
+libs:
+
+config_schema:
+  - ["libskeleton", "o", {title: "Lib configuration object"}]
+  - ["libskeleton.enable", "b", true, {title: "Lib enable option"}]
+
+tags:
+  - c
+  - js
+
+manifest_version: 2017-09-29
