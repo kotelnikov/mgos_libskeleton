@@ -2,4 +2,4 @@
 
 ## Overview
 
-This is an empty library skeleton, serves the skeleton for building Mongoose OS Mongoose OS libraries.
+This is an empty library skeleton, serves the skeleton for building Mongoose OS libraries.
