@@ -1,7 +1,7 @@
 author: Author Name <your@email.here>
+description: Your Lib description
 type: lib
-description: Write your description 
-version: 0.1
+version: 1.0
 
 includes:
   - include
@@ -13,13 +13,20 @@ filesystem:
   - fs
 
 libs:
+  ### ->> REMOTE LIBS DEPENDENCIES <-- ###
+  #- location: https://github.com/mongoose-os-libs/sntp  
+  
+  ### ->> LOCAL LIBS DEPENDENCIES <-- ###
+  #- location: lib-folder/lib-name
 
 config_schema:
+  ### ->> LIB CONFIG OBJECT <-- ###
   - ["libskeleton", "o", {title: "Lib configuration object"}]
   - ["libskeleton.enable", "b", true, {title: "Lib enable option"}]
 
 tags:
-  - c
-  - js
+  - mongoose_os
+  - lib
+  - boilerplate
 
-manifest_version: 2017-09-29
+manifest_version: 2020-01-29
